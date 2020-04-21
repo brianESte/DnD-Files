@@ -1,0 +1,21 @@
+# Compiled source #
+###################
+*.com
+
+# Packages #
+############
+# its better to npack these files and commit the raw source
+# git has its own built in compression methods
+*.jar
+*.zip
+
+# Logs ans databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+._*
+.Trashes
