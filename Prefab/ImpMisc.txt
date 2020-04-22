@@ -1,0 +1,199 @@
+Ale or Beer (1 mug)
+Poor quality 1 CP — — — —
+Average quality 2 CP — — — —
+High quality 1 SP — — — —
+Bread (1 loaf) 2 CP — — — —
+Cheese (1 wheel) 1 SP 1 0 0 0.3
+Liquor (1 drink)
+Poor quality 5 CP — — — —
+Average quality 1 SP — — — —
+High quality 4 SP — — — —
+Liquor (1 bottle)
+Poor quality 3 SP — — — —
+Average quality 5 SP — — — —
+High quality 20 SP — — — —
+Mead (1 mug)
+Poor quality 1 CP — — — —
+Average quality 2 CP — — — —
+High quality 1 SP — — — —
+Meal (for one person)
+Poor quality 5 CP — — — —
+Average quality 1 SP — — — —
+High quality 2 SP — — — —
+Meat (1 shoulder) 3 SP 1 0 0 0.4
+Pipe, smoking 2 SP 1 0 0 0.01
+Rations (1 day) 1 SP 1 0 0 0.2
+Tobacco (1 pouch) 5 CP 1 0 0 0.02
+Wine (1 glass)
+Poor quality 2 CP — — — —
+Average quality 4 CP — — — —
+High quality 2 SP — — — —
+Wine (1 bottle)
+Poor quality 1 SP — — — —
+Average quality 2 SP — — — —
+High quality 10 SP — — — —
+Acid (one glass flask) 20 SP 1 1 1 0.3 RKA 1d6, Penetrating, Constant, Uncontrolled
+Backpack 5 SP 3 2 2 1.8
+Barrel (wooden) 10 SP 5 3 3 10
+Basket (wicker) 1 SP 1 1 1 .01
+Bell
+Large 50 SP 6 5 5 30.0
+Small 15 SP 2 5 5 1.0
+Tiny 20 SP 1 3 3 0.03
+Block and tackle 20 SP 3 3 3 2.0
+Book, blank
+Large 100 SP 2 1 1 4.0
+Small 60 SP 1 1 1 1.5
+Bottle
+Clay 2 SP 1 1 2 1.0
+Glass 5 SP 1 1 3 1.0
+Steel 20 SP 3 5 5 2.0
+Bucket 5 SP 2 3 3 0.8
+Brazier 6 SP 3 3 6 1.0
+Camping/Outdoor Gear
+Bedroll 2 SP 1 1 1 1.0
+Blanket 2 SP 1 1 1 0.5
+Camp bed 25 SP 3 3 3 13.0
+Hammock 6 SP 1 1 1 1.4
+Tent, canvas 15 SP 1 1 1 8.0
+Pavilion 100 SP 3 1 1 40.0
+Candle
+Normal 2 CP 1 0 0 0.01
+Timed (1 hour) 5 CP 1 0 0 0.01
+Case
+Metal 30 SP 3 5 5 1.0
+Wooden 13 SP 3 3 3 0.6
+Chain (1 meter) 30 SP 4 5 5 2.0
+Chalk (1 piece) 2 CP 1 1 1 0.01
+Chest
+Large, Metal 50 SP 5 5 5 10.0
+Large, Wooden 30 SP 5 3 3 4.0
+Small, Metal 30 SP 4 5 5 5.0
+Small, Wooden 20 SP 4 3 3 3.5
+Chirurgeon’s tools
+Instruments 60 SP 2 2 2 0.5
+Supplies (10 patients’ worth) 10 SP 1 0 0 0.1
+Climbing gear (other than rope, grappling hook) 20 SP 2 3 3 0.2 Adds +2 to Climbing rolls
+Clock 200 SP 3 3 3 4.0
+Compass 200 SP 1 1 1 0.02
+Cooking Gear
+Kettle, iron 25 SP 4 5 7 12.0
+Pan, iron 12 SP 2 5 6 2.0
+Pot, iron 17 SP 3 5 7 4.3
+Disguise kit (10 disguises’ worth) 20 SP 1 0 0 0.1
+Firewood (1 day’s worth) 4 CP 2 3 3 8.0
+Fishing Gear
+Hook and line 6 CP 1 1 1 0.01
+Net (8m square) 25 SP 2 2 2 2.5
+Flask
+Clay 3 SP 1 1 2 0.8
+Glass 6 SP 1 1 3 0.8
+Steel 23 SP 3 5 5 1.6
+Flint and steel 8 CP 1 1 1 0.01
+Glassware, laboratory (per piece) 40 SP 1 1 2 0.1
+Goblet
+Crystal 100 SP 1 1 2 0.1
+Glass 35 SP 1 1 2 0.1
+Gold 100 SP 2 3 3 0.3
+Silver 80 SP 2 3 3 0.2
+Grappling hook 10 SP 3 3 3 1.8
+Herbs and plants
+Belladonna (1 bunch) 1 SP 1 0 0 0.01
+Garlic (1 clove) 1 CP 1 0 0 0.01
+Holly (1 bunch) 1 SP 1 0 0 0.01
+Mistletoe (1 bunch) 1 SP 1 0 0 0.01
+Wolfsbane (1 bunch) 1 SP 1 0 0 0.01
+Holy Symbol
+Iron 30 SP 1 4 6 0.1
+Silver 80 SP 1 4 4 0.1
+Wooden 10 SP 1 3 3 0.03
+Holy Water (1 glass flask) 5 SP 1 1 1 0.3
+Hourglass 55 SP 1 1 1 0.5
+Ladder (4m long)
+Metal 60 SP 5 5 5 15.0
+Wooden 12 SP 4 3 3 5.0
+Lantern
+Bullseye 50 SP 2 1-2 4 1.0
+Hooded 35 SP 2 1-2 4 0.9
+Locks Cost is in addition to item to be locked
+Poor quality 3 SP 1 2 2 0.2 +1 to Lockpicking attempts
+Average quality 6 SP 1 2 2 0.3 -0 to Lockpicking attempts
+Above Average quality 12 SP 1 2 2 0.3 -3 to Lockpicking attempts
+High quality 15 SP 2 2 2 0.3 -6 to Lockpicking attempts
+Very high quality 25 SP 2 2 2 0.4 -9 to Lockpicking attempts
+Superb quality 50 SP 2 3 3 0.5 -12 to Lockpicking attempts
+Magnifying glass 200 SP 1 1 1 0.04 x10 Microscopic Sight
+Manacles
+Poor quality 10 SP 3 5 5 0.8 +1 to Lockpicking attempts
+Average quality 25 SP 3 5 5 1.0 -0 to Lockpicking attempts
+Above Average quality 35 SP 3 5 5 1.3 -3 to Lockpicking attempts
+High quality 50 SP 3 5 5 1.5 -6 to Lockpicking attempts
+Very high quality 60 SP 3 5 5 1.8 -9 to Lockpicking attempts
+Superb quality 100 SP 3 5 5 2.0 -12 to Lockpicking attempts
+Mirror, Small
+Silver 35 SP 1 3 3 0.07
+Silvered glass 25 SP 1 1 1 0.05
+Steel 15 SP 1 5 5 0.1
+Mug/tankard
+Clay 3 CP 1 1 1 0.03
+Pewter 2 SP 2 3 3 0.1
+Musical Instruments
+Drum, Large 20 SP 3 3 3 3.0
+Drum, Small 12 SP 2 3 3 1.0
+Fiddle 32 SP 2 2 2 1.0
+Harp, Large 150 SP 4 3 3 12.0
+Harp, Small/Lapharp 80 SP 3 3 3 5.0
+Lute 30 SP 3 3 3 3.5
+Lyre 30 SP 3 3 3 3.0
+Mandolin 30 SP 3 3 3 3.5
+Pipes, Metal 20 SP 2 4 4 0.3
+Pipes, Wooden/Recorder 5 SP 2 3 3 0.1
+String (any stringed instrument) 1 SP 1 0 0 —
+Zither 35 SP 3 3 3 3.5
+Needle, iron/steel 2 SP 1 1 1 —
+Oil (1 liter, in clay bottle) 5 SP 2 1 1 0.5
+Pick (mining) 15 SP 5 4 4 4.5
+Reference Library (1 subject or topic)
+Large 6,000 SP — — — 300+
+Small 3,000 SP — — — 150+
+Pole
+Metal (2m long) 14 SP 4 5 5 4.0
+Wooden (4m long) 2 SP 4 3 3 1.8
+Rope
+Hair (16m) 12 SP 3 2 2 5.0
+Hemp (16m) 10 SP 2 2 2 5.0
+Silk (16m) 30 SP 3 2 2 2.5
+Sack, leather 3 SP 2 2 2 0.3
+Scale, small 36 SP 2 4 4 2.0
+Shovel/spade 22 SP 3 4 4 3.0
+Signet ring 45 SP 1 3 3 —
+Soap (per cake) 4 CP 1 0 0 0.01
+Spike, iron 8 SP 2 5 5 0.5
+Spyglass 600 SP 1 1 1 0.5 +8 versus Range for Sight Group
+Thieves’ Tools
+Poor quality 40 SP 1 1 1 0.1 -1 to Lockpicking, Security Systems rolls
+Average quality 90 SP 1 1 1 0.1 +0 to Lockpicking, Security Systems rolls
+High quality 180 SP 1 1 1 0.1 +1 to Lockpicking, Security Systems rolls
+Tools
+Chisel 6 SP 2 5 5 0.5
+Crowbar 15 SP 3 5 5 2.3
+Hammer 3 SP 2 3 3 0.9
+Nails (10) 2 SP 1 2 2 0.2
+Saw 3 SP 2 3 3 0.6
+Torch 1 CP 2 3 3 0.3
+Vial
+Clay 6 SP 1 1 2 0.8
+Glass 12 SP 1 1 3 0.8
+Steel 30 SP 3 5 5 1.6
+Waterskin 8 SP 1 1 1 0.04
+Whetstone 5 CP 1 2 2 0.08
+Whistle, tin 10 SP 1 1 1 0.01
+Wire (4m long coil) 18 SP 2 4 4 2.0
+Writing Supplies
+Ink (1 ounce, in glass vial) 18 SP 1 1 1 0.4
+Paper (1 sheet) 8 SP 1 0 0 — 200 sheets of paper weigh 1.0 kg
+Parchment (sheet) 3 SP 1 0 0 — 160 sheets of parchment weigh 1.0 kg
+Pen, writing 5 SP 1 1 1 0.01
+Quill 1 CP 1 0 0 —
+Sealing wax (.5 kg) 3 SP 1 1 1 0.5
+Vellum (1 sheet) 5 SP 1 0 0 — 120 sheets of vellum weigh 1.0 kg
