@@ -1,0 +1,223 @@
+*{
+	margin: 0;	padding: 0;	
+	background: inherit;
+	box-sizing: border-box;
+}
+BODY {
+	font-family: Minion, Constantia, Times New Roman, serif, Minion Web;
+    font-size: 9pt;
+    color: black;
+    background-color: pink;
+	max-width: 8.5in;
+}
+img{	}
+.page{
+	margin: 0.5in;
+	max-height: 10in;
+	width: 7.5in;
+	background: lightblue;
+}
+/*			*****************		Page 1		******************			*/
+#page1{
+	height: 100%;
+}
+#title-block{	float: left;	width: 65%;	}
+#logo-div{	width: 33%;	}
+#p1-tables{
+	display: flex;
+	flex-flow: column wrap;
+	#flex-wrap: wrap;
+	height: 8.75in; #87.5%;
+}
+
+#page1 .table-div{
+	#margin-top: 3.6mm;
+}
+
+#characteristics{
+	#height: 100mm;
+}
+#attacks-mans{
+	height: 113.6mm;
+}
+#attacks-table{
+	border-spacing: 1.3mm 2px;
+	font-size: 7pt;
+}
+#attacks-table th:first-child,
+#attacks-table th:last-child,
+#attacks-table td:first-child,
+#attacks-table td:last-child{
+	text-align: left;
+}
+#status{
+	float: left;
+	margin: 0 auto;
+}
+#vitals{
+	
+}
+#defenses{
+	border-spacing: 1.6mm 2px;
+}
+#sense-table td:first-child{
+	text-align: left;
+}
+	
+#experience{
+	height: 13%;
+}
+#hit-location{
+	height: 39%;
+}
+#combat-mods{
+	height: 18%;
+}
+#movement{
+	height: 24.8%;
+}
+#move-table{
+	border-spacing: 1.7mm 2px;
+}
+
+
+
+/*	********************************** 			Page 2			******************	*/
+hr{
+	border: 2px solid #000;
+}
+#page2{
+	margin-top: 200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	grid-gap: 3.3mm 3.8mm;
+	grid-auto-columns: 33%;
+	height: 10in;
+}
+.table-div{
+	position: relative;
+	border-radius: 10px;
+	border: 3px solid #000;
+	text-align: center;
+	overflow: hidden;
+}
+.table-div td{
+	font-size: 7pt;
+}
+table{
+	width: 100%;
+	border-spacing: 8px 2px;
+}
+td{
+	height: 16px;
+	vertical-align: bottom;
+}
+.blank{
+	border-bottom: 1px solid #000;
+}
+.img-holder{
+	grid-row: 1/2;
+	grid-column: 2/3;
+	background: white;
+	text-align: center;
+	#height: 205px;
+}
+#page2 #logo{
+	position: relative;
+	top: -3.2mm;
+	height: 127%;
+}
+.data-table{
+	z-index: 2;
+	background: none;
+	position: absolute;
+	top: 38px;
+	font-size: 8pt;
+	line-height: 18px;
+	border-spacing: 3mm 1px;
+}
+.data-table td{
+	border: none;
+}
+span{
+	#display: inline-block;
+}
+#page2 #character-info > span{
+	position: relative;
+	bottom: -2px;
+}
+#div21{
+	grid-row: 1/2;
+	grid-column: 1/2;
+	background: red;
+}
+#character-info{
+	#border-collapse: collapse;
+	border-spacing: 10px 2px;
+}
+td p{
+	text-align: right;
+	display: inline-block;
+}
+
+#div23{
+	grid-row: 1/2;
+	grid-column: 3/4;
+	background: skyblue;
+}
+#campaign-info{
+	border-spacing: 10px 2px;
+}
+#skills-perks-talents{
+	grid-row: 2/4;
+	background: teal;
+}
+h3{
+	text-align: center;
+}
+#powers-equipment{
+	grid-column: 2/4;
+	background: #953;
+}
+
+#complications{
+	grid-column: 2/4;
+	background: #195;
+}
+#complications td{
+	#display: inline-block;
+}
+.noline{
+	border: none;
+	font-size: 8pt;
+}
+
+
+TD{	#font-size: 10pt;}
+TABLE.small {  font-size: 8pt;	}
+TABLE.content {	font-size: 9pt;	}
+TD.header {
+	font-size: 12pt;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	border: solid black 2px;
+}
+TD.content {
+	font-size: 10pt;
+}
+TD.small {	font-size: 8pt;	}
+SPAN.small {	font-size: 8pt;	}
+span.c11 {font-size: 8pt; Minion, Constantia, Times New Roman, serif, Minion Web;}
+td.c10 {padding-left: 30px;}
+div.c9 {white-space: pre;}
+div.c8 {margin-left: 15px;}
+div.c7 {margin-left: 30px; font-size: 8pt;}
+span.c6 {padding-left: 10px;}
+td.c5 {padding: 0px;}
+br.c4 {page-break-after: always;}
+table.c3 {width: 200mm; border: solid black 1px; background: lightgreen;}
+td.c2 {background-color: black; width: 1px !important; border-left: solid black 1px; margin-left: 5px;}
+td.c1 {border: solid black 2px;}
+#MainName {font-size: large; Font-weight: bolder; line-height: 14px}
