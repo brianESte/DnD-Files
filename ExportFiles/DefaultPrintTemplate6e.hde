@@ -1,0 +1,1907 @@
+<!--TEMPLATE_NAME-->6E HTML - Old Style Default Character Sheet with Hit Location<!--/TEMPLATE_NAME-->
+    <!--TEMPLATE_DESCRIPTION-->
+    <p> The Export format is based on the 5th edition "DefaultPrintTemplate.hde". I added the new 6E Characteristics, 
+		placed the characteristics in the new order. Fixed some formatting issues. Loosened up the cell spacing. Added
+		the new combat maneuvers. Added Hit Location, and fixed some formatting there. Worked on keeping the formatting
+		readable and consistant while still maintaining the feel of the 5e character sheet.
+	</p>
+    <p>
+		If printed, this sheet will now properly break in both IE 6.0 and in Firefox 3.5x, Safari will not properly
+		page break. For Mac and Windows users, I recommend printing using Firefox 3.5 or later for best
+		appearance.	
+    </p>
+	<p>
+		If you have a ton of powers, Talents and Equipment this Sheet will like almost all of the export formats
+		break mid page. 
+    <p>
+      The file "HeroSystem_6ELogos.jpg" needs to be included in same directory as the character's export file.
+    </p>
+    <p>
+      If the character has an image associated with it and you want to have that image included in
+      the HTML output, you will need to save that image into the same directory as the HTML file
+      when you export (the export wizard will prompt you to save the image). Keep image sizes to less than 246pt x 400pt 
+	  or the image will be resized by the browser (which makes for ugly pictures)
+	</p>
+	<p>  
+	  Original template by Dan Simon, Converted for 6e and tons of stuff changed by Tasha :D
+	</p>
+	<p>
+		Version 1.5 (9/7/2009)
+	  <!--/TEMPLATE_DESCRIPTION-->
+      <!--FILE_EXTENSION-->html<!--/FILE_EXTENSION-->
+      <!--FILE_EXTENSION-->htm<!--/FILE_EXTENSION-->
+    </p>
+<html>
+  <head>
+    <title>
+      <!--CHARACTER_NAME-->yesss
+    </title>
+    <style type="text/css">
+BODY {
+        font-family: Minion, Constantia, Times New Roman, serif, Minion Web;
+        font-size: 10pt;
+        color: black;
+        background-color: white;
+    }
+
+    TD {
+        font-size: 10pt;
+    }
+
+    TABLE.small {
+        font-size: 8pt;
+    }
+    TABLE.content {
+        font-size: 9pt;
+    }
+
+    TD.header {
+        font-size: 12pt;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        border: solid black 2px;
+    }
+
+    TD.content {
+        font-size: 10pt;
+    }
+    TD.small {
+        font-size: 8pt;
+    }
+    SPAN.small {
+        font-size: 8pt;
+    }
+    </style>
+    <style type="text/css">
+span.c11 {font-size: 8pt; Minion, Constantia, Times New Roman, serif, Minion Web;}
+    td.c10 {padding-left: 30px;}
+    div.c9 {white-space: pre;}
+    div.c8 {margin-left: 15px;}
+    div.c7 {margin-left: 30px; font-size: 8pt;}
+    span.c6 {padding-left: 10px;}
+    td.c5 {padding: 0px;}
+    br.c4 {page-break-after: always;}
+    table.c3 {width: 200mm; border: solid black 1px;}
+    td.c2 {background-color: black; width: 1px !important; border-left: solid black 1px; margin-left: 5px;}
+    td.c1 {border: solid black 2px;}
+	#MainName {font-size: large; Font-weight: bolder; line-height: 14px}
+    </style>
+  </head>
+  <body>
+    <table border="0" cellpadding="0" cellspacing="2" width="100%" valign="top" class="c3">
+      <tr>
+        <td colspan="2" width="55%" valign="top" class="content">
+			<table border="0" cellpadding="0" cellspacing="1" rules="groups">
+				<tbody>
+				<tr>
+					<td><strong><big><!--CHARACTER_NAME--></strong></big></td>
+				</tr>
+				<tr>
+					<td><small>Character Name</small></td>
+				</tr>
+				</tbody>
+				<tbody>
+				<tr>
+				<td><i><!--ALTERNATE_IDS--></i></td>
+				</tr>
+				<tr>
+					<td><small>Alternate Identities:</small></td>
+				</tr>
+				</tbody>
+				<tbody>
+				<tr>
+				<td><small>Player Name: </small> <!--PLAYER_NAME--></td>
+				</tr>
+				</tbody>
+			</table>
+        </td>
+        <td align="right" width="45%" colspan="2">
+          <img width="107" height="75" src="HeroSystem_6ELogos.jpg" alt="Image">
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" colspan="2" width="60%">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td colspan="3" class="header">
+                CHARACTERISTICaS
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" class="content">
+                <table border="0" cellpadding="0" cellspacing="4">
+                  <tr>
+                    <td align="center" valign="top">
+                      <b>Val</b>
+                    </td>
+                    <td align="center" valign="top">
+                      <b>Char</b>
+                    </td>
+                    <td align="center" valign="top">
+                      <b>Points</b>
+                    </td>
+                    <td align="center" valign="top">
+                      <b>Roll</b>
+                    </td>
+                    <td align="left" valign="top">
+                      <b>Notes</b>
+                    </td>
+                  </tr><!--STR-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--STR_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      str
+                    </td>
+                    <td align="center" valign="top">
+                      <!--STR_COST-->
+                    </td>
+                    <td align="center" valign="top">
+                      <!--STR_ROLL-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--STR_NOTES-->
+                    </td>
+                  </tr><!--/STR-->
+                  <!--DEX-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--DEX_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      DEX
+                    </td>
+                    <td align="center" valign="top">
+                      <!--DEX_COST-->
+                    </td>
+                    <td align="center" valign="top">
+                      <!--DEX_ROLL-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--DEX_NOTES-->
+                    </td>
+                  </tr><!--/DEX-->
+                  <!--CON-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--CON_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      CON
+                    </td>
+                    <td align="center" valign="top">
+                      <!--CON_COST-->
+                    </td>
+                    <td align="center" valign="top">
+                      <!--CON_ROLL-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--CON_NOTES-->
+                    </td>
+                  </tr><!--/CON-->
+                  <!--INT-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--INT_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      INT
+                    </td>
+                    <td align="center" valign="top">
+                      <!--INT_COST-->
+                    </td>
+                    <td align="center" valign="top">
+                      <!--INT_ROLL-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--INT_NOTES-->
+                    </td>
+                  </tr><!--/INT-->
+                  <!--EGO-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--EGO_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      EGO
+                    </td>
+                    <td align="center" valign="top">
+                      <!--EGO_COST-->
+                    </td>
+                    <td align="center" valign="top">
+                      <!--EGO_ROLL-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--EGO_NOTES-->
+                    </td>
+                  </tr><!--/EGO-->
+                  <!--PRE-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--PRE_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      PRE
+                    </td>
+                    <td align="center" valign="top">
+                      <!--PRE_COST-->
+                    </td>
+                    <td align="center" valign="top">
+                      <!--PRE_ROLL-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--PRE_NOTES-->
+                    </td>
+                  </tr><!--/PRE-->
+                  <tr>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top"></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top"></td>
+                  </tr>
+				  <!--OCV_CHAR-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--OCV_CHAR_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      OCV
+                    </td>
+                    <td align="center" valign="top">
+                      <!--OCV_CHAR_COST-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--OCV_CHAR_NOTES-->
+                    </td>
+                  </tr><!--/OCV_CHAR-->
+				  <!--DCV_CHAR-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--DCV_CHAR_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      DCV
+                    </td>
+                    <td align="center" valign="top">
+                      <!--DCV_CHAR_COST-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--DCV_CHAR_NOTES-->
+                    </td>
+                  </tr><!--/DCV_CHAR-->
+                  <!--OMCV-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--OMCV_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      OMCV
+                    </td>
+                    <td align="center" valign="top">
+                      <!--OMCV_COST-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--OMCV_NOTES-->
+                    </td>
+                  </tr><!--/OMCV-->
+                  <!--DMCV-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--DMCV_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      DMCV
+                    </td>
+                   <td align="center" valign="top">
+                      <!--DMCV_COST-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--DMCV_NOTES-->
+                    </td>
+                  </tr><!--/DMCV-->
+                  <!--SPD-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--SPD_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      SPD
+                    </td>
+                    <td align="center" valign="top">
+                      <!--SPD_COST-->
+                    </td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top">
+                      <!--SPD_NOTES-->
+                    </td>
+                  </tr><!--/SPD-->
+                  <tr>
+                    <td align="center" valign="top"></td>
+                   <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top"></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top"></td>
+                  </tr><!--PD-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--PD_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      PD
+                    </td>
+                   <td align="center" valign="top">
+                      <!--PD_COST-->
+                    </td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top">
+                      <!--PD_NOTES-->
+                    </td>
+                  </tr><!--/PD-->
+                  <!--ED-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--ED_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      ED
+                    </td>
+                   <td align="center" valign="top">
+                      <!--ED_COST-->
+                    </td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top">
+                      <!--ED_NOTES-->
+                    </td>
+                  </tr><!--/ED-->
+                  <!--REC-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--REC_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      REC
+                    </td>
+                    <td align="center" valign="top">
+                      <!--REC_COST-->
+                    </td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top">
+                      <!--REC_NOTES-->
+                    </td>
+                  </tr><!--/REC-->
+                  <!--END-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--END_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      END
+                    </td>
+                    <td align="center" valign="top">
+                      <!--END_COST-->
+                    </td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top">
+                      <!--END_NOTES-->
+                    </td>
+                  </tr><!--/END-->
+                  <!--BODY-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--BODY_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      BODY
+                    </td>
+                    <td align="center" valign="top">
+                      <!--BODY_COST-->
+                    </td>
+                    <td align="center" valign="top">
+                      <!--BODY_ROLL-->
+                    </td>
+                    <td align="left" valign="top">
+                      <!--BODY_NOTES-->
+                    </td>
+                  </tr><!--/BODY-->
+                  <!--STUN-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <!--STUN_TOTAL-->
+                    </td>
+                    <td align="center" valign="top">
+                      STUN
+                    </td>
+                    <td align="center" valign="top">
+                      <!--STUN_COST-->
+                    </td>
+                    <td align="center" valign="top"></td>
+                    <td align="left" valign="top"></td>
+                  </tr><!--/STUN-->
+                  <tr>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top"></td>
+                    <td align="center" valign="top">
+                      <b><!--CHARACTERISTIC_POINTS--></b>
+                    </td>
+                    <td align="left" valign="top">
+                      <b>Total Characteristics Points</b>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td width="57%" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td height="1" class="header">
+                      CHARACTER IMAGE
+                    </td>
+                  </tr>
+						<!--IMAGE-->
+							<tr>
+								<td align="center" style="border: solid black 2px;">
+								<img src="<!--IMAGE_RELATIVE_URL-->" Width=246pt>
+								</td>
+							</tr>
+						<!--/IMAGE-->
+				</table>
+              </td>
+              <td width="5"></td>
+              <td width="43%" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td class="header">
+                      EXPERIENCE POINTS
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table border="0" cellpadding="0" cellspacing="2" width="100%" rules="groups" class="small">
+                        <tr>
+						<thead>
+                          <td class="medium">
+                            <strong><b>Total Points:
+                          </td>
+                          <td align="right" class="Medium">
+                            <!--TOTAL_POINTS--></b><strong>
+                          </td>
+                        </tr>
+						<tr>
+                          <td class="medium">
+                            <strong><b>Total XP Earned:
+                          </td>
+                          <td align="right" class="medium">
+                            <!--EARNED_EXP--></b></strong>
+                          </td>
+                        </tr>
+						</thead>
+						<tbody>
+                        <tr>
+                          <td class="small">
+                            XP Spent:
+                          </td>
+                          <td align="right" class="small">
+                            <!--SPENT_EXP-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="small">
+                            XP Unspent:
+                          </td>
+                          <td align="right" class="small">
+                            <!--UNSPENT_EXP-->
+                          </td>
+                        </tr>
+						</tbody>
+						<tfoot>
+                        <tr>
+                          <td class="small">
+                            Base Points:
+                          </td>
+                          <td align="right" class="small">
+                            <!--BASE_POINTS-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="small">
+                            Complication Points:
+                          </td>
+                          <td align="right" class="small">
+                            <!--DISAD_POINTS-->
+                          </td>
+                        </tr>
+						</tfoot>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td class="header">
+                      MOVEMENT
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small">
+                      <table border="0" cellpadding="0" cellspacing="2" width="100%" class="small">
+                        <tr>
+                          <td class="small">
+                            <b>Type</b>
+                          </td>
+                          <td class="small">
+                            <b>Total</b>
+                          </td>
+                        </tr><!--RUNNING-->
+                        <tr>
+                          <td class="small">
+                            Run! 
+                          </td>
+                          <td class="small">
+                            <!--RUNNING_TOTAL-->[<!--IF_RUNNING--><!--RUNNING_TOTAL_NONCOMBAT-->
+                            <!--/IF_RUNNING--> NC]
+                          </td>
+                        </tr><!--/RUNNING-->
+                        <!--SWIMMING-->
+                        <tr>
+                          <td class="small">
+                            Swim
+                          </td>
+                          <td class="small">
+                            <!--SWIMMING_TOTAL-->[<!--IF_SWIMMING--><!--SWIMMING_TOTAL_NONCOMBAT-->
+                            <!--/IF_SWIMMING--> NC]
+                          </td>
+                        </tr><!--/SWIMMING-->
+                        <!--LEAPING-->
+                        <tr>
+                          <td class="small">
+                            H. Leap 
+                          </td>
+                          <td class="small">
+                            <!--LEAPING_HORIZONTAL_TOTAL-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="small">
+                            V. Leap
+                          </td>
+                          <td class="small">
+                            <!--LEAPING_VERTICAL_TOTAL-->
+                          </td>
+                        </tr><!--/LEAPING-->
+                        <!--IF_FLIGHT-->
+                        <tr>
+                          <td class="small">
+                            Flight
+                          </td>
+                          <td class="small">
+                            <!--FLIGHT_TOTAL-->[<!--FLIGHT_TOTAL_NONCOMBAT--> NC]
+                          </td>
+                        </tr><!--/IF_FLIGHT-->
+                        <!--IF_GLIDING-->
+                        <tr>
+                          <td class="small">
+                            Gliding
+                          </td>
+                          <td class="small">
+                            <!--GLIDING_TOTAL-->[<!--GLIDING_TOTAL_NONCOMBAT--> NC]
+                          </td>
+                        </tr><!--/IF_GLIDING-->
+                        <!--IF_SWINGING-->
+                        <tr>
+                          <td class="small">
+                            Swinging
+                          </td>
+                          <td class="small">
+                            <!--SWINGING_TOTAL-->[<!--SWINGING_TOTAL_NONCOMBAT--> NC]
+                          </td>
+                        </tr><!--/IF_SWINGING-->
+                        <!--IF_TELEPORTATION-->
+                        <tr>
+                          <td class="small">
+                            Teleport
+                          </td>
+                          <td class="small">
+                            <!--TELEPORTATION_TOTAL-->[<!--TELEPORTATION_TOTAL_NONCOMBAT--> NC]
+                          </td>
+                        </tr><!--/IF_TELEPORTATION-->
+                        <!--IF_TUNNELING-->
+                        <tr>
+                          <td class="small">
+                            Tunneling
+                          </td>
+                          <td class="small">
+                            <!--TUNNELING_TOTAL-->[<!--TUNNELING_TOTAL_NONCOMBAT--> NC]
+                          </td>
+                        </tr><!--/IF_TUNNELING-->
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td class="header">
+                      DEFENSES
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table border="0" cellpadding="0" cellspacing="5" width="100%" class="small">
+                        <tr>
+                          <td class="small">
+                            <b>Type</b>
+                          </td>
+                          <td class="small">
+                            Amount
+                          </td>
+                        </tr><!--PD-->
+                        <tr>
+                          <td class="small">
+                            Physical Defense
+                          </td>
+                          <td class="small">
+                            <!--PD_NONRESISTANT_TOTAL-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="small">
+                            Res. Phys. Defense
+                          </td>
+                          <td class="small">
+                            <!--PD_RESISTANT_TOTAL-->
+                          </td>
+                        </tr><!--/PD-->
+                        <!--ED-->
+                        <tr>
+                          <td class="small">
+                            Energy Defense
+                          </td>
+                          <td class="small">
+                            <!--ED_NONRESISTANT_TOTAL-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="small">
+                            Res. Energy Defense
+                          </td>
+                          <td class="small">
+                            <!--ED_RESISTANT_TOTAL-->
+                          </td>
+                        </tr><!--/ED-->
+                        <tr>
+                          <td class="small">
+                            Mental Defense
+                          </td>
+                          <td class="small">
+                            <!--MENTAL_DEFENSE_TOTAL-->
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="small">
+                            Power Defense
+                          </td>
+                          <td class="small">
+                            <!--POWER_DEFENSE_TOTAL-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td height="100%" width="1" class="c2">
+           
+        </td>
+        <td valign="top" width="45%" rowspan="8">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td width="100%" class="header">
+                COMBAT INFORMATION
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table border="0" cellpadding="0" cellspacing="2">
+                  <tr>
+                    <td align="right" nowrap>
+                      <b>OCV:</b>
+                    </td>
+                    <td align="left" nowrap>
+                      <b><!--OCV--></b>
+                    </td>
+                    <td align="right" width="100%" nowrap>
+                      <b>DCV:</b>
+                    </td>
+                    <td align="left" nowrap>
+                      <b><!--DCV--></b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4">
+                       
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4">
+                      Combat Skill Levels: <span class="small"><!--IFCOMBAT_LEVELS-->
+                       <!--COMBAT_LEVELS-->
+                       <!--SEPARATOR-->, <!--/SEPARATOR-->
+                       <!--COMBAT_LEVEL_TEXT-->
+                       <!--/COMBAT_LEVELS-->
+                       <!--/IFCOMBAT_LEVELS--></span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td width="100%" class="header">
+                COMBAT MANEUVERS
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table border="0" cellpadding="0" cellspacing="2" width="100%" class="small">
+                  <tr>
+                    <td class="small" nowrap>
+                      <b>Maneuver</b>
+                    </td>
+                    <td class="small" nowrap>
+                      <b>Phase</b>
+                    </td>
+                    <td class="small" nowrap>
+                      <b>OCV</b>
+                    </td>
+                    <td class="small" nowrap>
+                      <b>DCV</b>
+                    </td>
+                    <td class="small" nowrap>
+                      <b>Effect</b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Block
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Block, abort
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Brace
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      0
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      +2 vs. Range Mod.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Disarm
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Can disarm
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Dodge
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      --
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +3
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Abort, vs. all attacks
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Grab
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -1
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -2
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Grab two limbs
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Grab By
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -3
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -4
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Move and Grab
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Haymaker
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2*
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -5
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      +4 DC attack damage
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Move By
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -2
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      STR/2+v/10; you take 1/3
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Move Through
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -v/10
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -3
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      STR+v/6; you take ½ or all
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Multiple Attack
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      var
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Attack multiple times
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Set
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +1
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Ranged Attacks only
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Shove
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -1
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -1
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Push 1m per 5 STR
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Strike
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      STR or weapon
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Throw
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      +0
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Throw w/STR dmg
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small" nowrap valign="top">
+                      Trip
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      1/2
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -1
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      -2
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      Ranged Attacks only
+                    </td>
+                  </tr><!--MANEUVERS-->
+                  <tr>
+                    <td class="small" valign="top">
+                      <!--MANEUVER_NAME-->
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      <!--MANEUVER_PHASE-->
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      <!--MANEUVER_OCV-->
+                    </td>
+                    <td class="small" nowrap valign="top">
+                      <!--MANEUVER_DCV-->
+                    </td>
+                    <td class="small" width="100%" valign="top">
+                      <!--MANEUVER_EFFECT-->
+                    </td>
+                  </tr><!--/MANEUVERS-->
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td width="100%" class="header">
+                COMBAT MODIFIERS
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table border="0" cellpadding="0" cellspacing="2" width="100%" class="small">
+                  <tr>
+                    <td class="small">
+                      <b>Range (M)</b>
+                    </td>
+                    <td class="small" align="center">
+                      0-8
+                    </td>
+                    <td class="small" align="center">
+                      9-16
+                    </td>
+                    <td class="small" align="center">
+                      17-32
+                    </td>
+                    <td class="small" align="center">
+                      33-64
+                    </td>
+                    <td class="small" align="center">
+                      65-128
+                    </td>
+                    <td class="small" align="center">
+                      126-250
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small">
+                      <b>RMOD</b>
+                    </td>
+                    <td class="small" align="center">
+                      0
+                    </td>
+                    <td class="small" align="center">
+                      -2
+                    </td>
+                    <td class="small" align="center">
+                      -4
+                    </td>
+                    <td class="small" align="center">
+                      -6
+                    </td>
+                    <td class="small" align="center">
+                      -8
+                    </td>
+                    <td class="small" align="center">
+                      -10
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td width="100%" class="header">
+                HIT LOCATION
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table border="0" cellpadding="0" cellspacing="2" width="100%" class="small">
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      <b>Roll</b>
+                    </td>
+                    <td class="small" align="left">
+                      <b>Location</b>
+                    </td>
+                    <td class="small" align="center">
+                      <b>STUNx</b>
+                    </td>
+                    <td class="small" align="center">
+                      <b>NSTUN</b>
+                    </td>
+                    <td class="small" align="center">
+                      <b>BODYx</b>
+                    </td>
+                    <td class="small" align="center">
+                      <b>To Hit</b>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      3-5
+                    </td>
+                    <td class="small" align="left">
+                      Head
+                    </td>
+                    <td class="small" align="center">
+                      x5
+                    </td>
+                    <td class="small" align="center">
+                      x2
+                    </td>
+                    <td class="small" align="center">
+                      x2
+                    </td>
+                    <td class="small" align="center">
+                      -8
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      6
+                    </td>
+                    <td class="small" align="left">
+                      Hands
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      x1/2
+                    </td>
+                    <td class="small" align="center">
+                      x1/2
+                    </td>
+                    <td class="small" align="center">
+                      -6
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      7-8
+                    </td>
+                    <td class="small" align="left">
+                      Arms
+                    </td>
+                    <td class="small" align="center">
+                      x2
+                    </td>
+                    <td class="small" align="center">
+                      x1/2
+                    </td>
+                    <td class="small" align="center">
+                      x1/2
+                    </td>
+                    <td class="small" align="center">
+                      -5
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      9
+                    </td>
+                    <td class="small" align="left">
+                      Shoulders
+                    </td>
+                    <td class="small" align="center">
+                      x3
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      -5
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      10-11
+                    </td>
+                    <td class="small" align="left">
+                      Chest
+                    </td>
+                    <td class="small" align="center">
+                      x3
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      -3
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      12
+                    </td>
+                    <td class="small" align="left">
+                      Stomach
+                    </td>
+                    <td class="small" align="center">
+                      x4
+                    </td>
+                    <td class="small" align="center">
+                      x1.5
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      -7
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      13
+                    </td>
+                    <td class="small" align="left">
+                      Vitals
+                    </td>
+                    <td class="small" align="center">
+                      x4
+                    </td>
+                    <td class="small" align="center">
+                      x1.5
+                    </td>
+                    <td class="small" align="center">
+                      x2
+                    </td>
+                    <td class="small" align="center">
+                      -8
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      14
+                    </td>
+                    <td class="small" align="left">
+                      Thighs
+                    </td>
+                    <td class="small" align="center">
+                      x2
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      -4
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      15-16
+                    </td>
+                    <td class="small" align="left">
+                      Legs
+                    </td>
+                    <td class="small" align="center">
+                      x2
+                    </td>
+                    <td class="small" align="center">
+                      x1/2
+                    </td>
+                    <td class="small" align="center">
+                      x1/2
+                    </td>
+                    <td class="small" align="center">
+                      -6
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td class="small" align="center">
+                      17-18
+                    </td>
+                    <td class="small" align="left">
+                      Feet
+                    </td>
+                    <td class="small" align="center">
+                      x1
+                    </td>
+                    <td class="small" align="center">
+                      x1/2
+                    </td>
+                    <td class="small" align="center">
+                      x1/2
+                    </td>
+                    <td class="small" align="center">
+                      -8
+                    </td>
+                  </tr>
+				  	<tr valign="top">
+                    <td class="small" align="center">
+                    </td>
+                    <td class="small" align="left">
+                    </td>
+                    <td class="small" align="center">
+                    </td>
+                    <td class="small" align="center">
+                    </td>
+                    <td class="small" align="center">
+                    </td>
+                    <td class="small" align="center">
+                    </td>
+                  </tr>
+				  <tr valign="top">
+                    <td class="small" align="center">
+                    </td>
+                    <td class="small" align="left">
+                    </td>
+                    <td class="small" align="center">
+                    </td>
+                    <td class="small" align="center">
+                    </td>
+                    <td class="small" align="center">
+                    </td>
+                    <td class="small" align="center">
+                    </td>
+                  </tr>
+
+                </table>
+              </td>
+            </tr>
+			<tr>
+			</tr>
+            <tr>
+              <td>
+                <table border="0" cellpadding="1" cellspacing="3" width="100%" class="small">
+                  <tr>
+                    <td class="small">
+                      <b>Targeting shot</b>
+                    </td>
+                    <td class="small" align="center">
+                      <b>OCV</b>
+                    </td>
+                    <td class="small">
+                      <b>Hit Location</b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small">
+                      Head shot (Head to Shoulders)
+                    </td>
+                    <td class="small" align="center">
+                      -4
+                    </td>
+                    <td class="small" align="left">
+                      1d6+3
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small">
+                      High shot (Head to Vitals)
+                    </td>
+                    <td class="small" align="center">
+                      -2
+                    </td>
+                    <td class="small" align="left">
+                      2d6+1
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small">
+                      Body shot (Hands to Legs)
+                    </td>
+                    <td class="small" align="center">
+                      -1
+                    </td>
+                    <td class="small" align="left">
+                      2d6+4
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small">
+                      Low shot (Shoulders to Feet)
+                    </td>
+                    <td class="small" align="center">
+                      -2
+                    </td>
+                    <td class="small" align="left">
+                      2d6+7 (19=Foot)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="small">
+                      Leg shot (Vitals to Feet)
+                    </td>
+                    <td class="small" align="center">
+                      -4
+                    </td>
+                    <td class="small" align="left">
+                      1d6+12
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table><br class="c4">
+    <table border="0" cellpadding="0" cellspacing="3" width="100%" valign="top" class="c3">
+      <tr>
+        <td colspan="5" valign="top">
+          <table border="0" cellpadding="0" cellspacing="3" width="100%" valign="top">
+            <tr>
+              <td>
+                <b>Character Name:<!--CHARACTER_NAME--></b> <br>
+                Alternate Identities: <!--ALTERNATE_IDS--><br>
+                Player Name: <!--PLAYER_NAME--><br>
+              </td>
+              <td align="right" width="34%" colspan="2">
+                <img width="107" height="55" src="/images/HeroSystem_6ELogos.jpg" alt="Image">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td width="37%" valign="top">
+          <table border="0" cellpadding="2" cellspacing="0" width="100%">
+            <!--IFSKILLS-->
+            <tr>
+              <td align="left" colspan="2" class="header c5">
+                SKILLS
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <b>Cost </b>
+              </td>
+              <td align="left" width="100%">
+                <b>Name</b>
+              </td>
+            </tr><!--SKILLS-->
+            <tr>
+              <td align="center" valign="top">
+                <!--SKILL_COST-->
+              </td>
+              <td align="left" valign="top">
+                <!--IFLIST-->
+                <div class="c8">
+                  <!--LISTPREFIX--><span class="c6"><!--/IFLIST--><!--IFNAME--><i><!--NAME-->:</i> 
+                  <!--/IFNAME--><!--SKILL_TEXT--><!--IFMULTIPLIER--> (x<!--MULTIPLIER--> Cost)
+                  <!--/IFMULTIPLIER--><!--IFNOTES--></span>
+                  <div class="c7">
+                    <span class="c6"><b>Notes:</b> <!--SKILL_NOTES--></span>
+                  </div><!--/IFNOTES--><!--IFLIST-->
+                </div><!--/IFLIST-->
+              </td>
+            </tr><!--/SKILLS-->
+            <tr>
+              <td align="center" valign="top">
+                <b><!--SKILL_POINTS--></b>
+              </td>
+              <td align="left" valign="top">
+                <b>Total Skills Cost</b>
+              </td>
+            </tr><!--/IFSKILLS-->
+            <!--IFPERKS-->
+            <tr>
+              <td align="left" colspan="2" class="header c5">
+                PERKS
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <b>Cost </b>
+              </td>
+              <td align="left" width="100%">
+                <b>Name</b>
+              </td>
+            </tr><!--PERKS-->
+            <tr>
+              <td align="center" valign="top">
+                <!--PERK_COST-->
+              </td>
+              <td align="left" valign="top">
+                <!--IFLIST-->
+                <div class="c8">
+                  <!--LISTPREFIX--><span class="c6"><!--/IFLIST--><!--IFNAME--><i><!--NAME-->:</i> 
+                  <!--/IFNAME--><!--PERK_TEXT--><!--IFMULTIPLIER--> (x<!--MULTIPLIER--> Cost)
+                  <!--/IFMULTIPLIER--><!--IFNOTES--></span>
+                  <div class="c7">
+                    <span class="c6"><b>Notes:</b> <!--PERK_NOTES--></span>
+                  </div><!--/IFNOTES--><!--IFLIST-->
+                </div><!--/IFLIST-->
+              </td>
+            </tr><!--/PERKS-->
+            <tr>
+              <td align="center" valign="top">
+                <b><!--PERK_POINTS--></b>
+              </td>
+              <td align="left" valign="top">
+                <b>Total Perks Cost</b>
+              </td>
+            </tr><!--/IFPERKS-->
+            <!--IFTALENTS-->
+            <tr>
+              <td align="left" colspan="2" class="header c5">
+                TALENTS
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <b>Cost </b>
+              </td>
+              <td align="left" width="100%">
+                <b>Name</b>
+              </td>
+            </tr><!--TALENTS-->
+            <tr>
+              <td align="center" valign="top">
+                <!--TALENT_COST-->
+              </td>
+              <td align="left" valign="top">
+                <!--IFLIST-->
+                <div class="c8">
+                  <!--LISTPREFIX--><span class="c6"><!--/IFLIST--><!--IFNAME--><i><!--NAME-->:</i> 
+                  <!--/IFNAME--><!--TALENT_TEXT--><!--IFMULTIPLIER--> (x<!--MULTIPLIER--> Cost)
+                  <!--/IFMULTIPLIER--><!--IFNOTES--></span>
+                  <div class="c7">
+                    <span class="c6"><b>Notes:</b> <!--TALENT_NOTES--></span>
+                  </div><!--/IFNOTES--><!--IFLIST-->
+                </div><!--/IFLIST-->
+              </td>
+            </tr><!--/TALENTS-->
+            <tr>
+              <td align="center" valign="top">
+                <b><!--TALENT_POINTS--></b>
+              </td>
+              <td align="left" valign="top">
+                <b>Total Talents Cost</b>
+              </td>
+            </tr><!--/IFTALENTS-->
+          </table>
+        </td>
+        <td height="100%" width="1" class="c2">
+           
+        </td>
+        <td colspan="3" width="67%" valign="top">
+          <table border="0" cellpadding="2" cellspacing="0" width="100%">
+            <!--IFPOWERS-->
+            <tr>
+              <td align="left" class="header c5" colspan="3">
+                POWERS
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top">
+                <b>Cost </b>
+              </td>
+              <td align="left" width="100%" valign="top">
+                <b>Power</b>
+              </td>
+              <td align="center" valign="top">
+                <b>END</b>
+              </td>
+            </tr><!--POWERS-->
+            <!--COMPOUND_POWER_SEPARATOR--><!--/COMPOUND_POWER_SEPARATOR-->
+            <tr>
+              <td align="center" valign="top">
+                <!--POWER_COST-->
+              </td>
+              <td align="left" valign="top">
+                <!--IFLIST-->
+                <div class="c8">
+                  <!--LISTPREFIX--><span class="c6"><!--/IFLIST--><!--IFNAME--><i><!--NAME-->:</i> 
+                  <!--/IFNAME--><!--POWER_TEXT--><!--IFMULTIPLIER--> (x<!--MULTIPLIER--> Cost)
+                  <!--/IFMULTIPLIER--><!--IFNOTES--></span>
+                  <div class="c7">
+                    <span class="c6"><b>Notes:</b> <!--POWER_NOTES--></span>
+                  </div><!--/IFNOTES--><!--IFLIST-->
+                </div><!--/IFLIST-->
+              </td>
+              <td align="center" valign="top">
+                <!--POWER_END-->
+              </td>
+            </tr><!--/POWERS-->
+            <tr>
+              <td align="center" valign="top">
+                <b><!--POWER_POINTS--></b>
+              </td>
+              <td align="left" colspan="2" valign="top">
+                <b>Total Powers Cost</b>
+              </td>
+            </tr><!--/IFPOWERS-->
+          </table>
+          <table border="0" cellpadding="2" cellspacing="0" width="100%">
+            <!--IFEQUIPMENT-->
+            <tr>
+              <td align="left" class="header c5" colspan="3">
+                EQUIPMENT
+              </td>
+            </tr>
+            <tr>
+              <td align="left" width="100%" valign="top" colspan="2">
+                <b>Equipment</b>
+              </td>
+              <td align="center" valign="top">
+                <b>END</b>
+              </td>
+            </tr><!--EQUIPMENT-->
+            <tr>
+              <td align="left" valign="top" colspan="2">
+                <!--IFLIST-->
+                <div class="c8">
+                  <!--LISTPREFIX--><span class="c6"><!--/IFLIST--><!--IFNAME--><i><!--NAME-->:</i> 
+                  <!--/IFNAME--><!--EQUIPMENT_TEXT--><!--IFMULTIPLIER--> (x<!--MULTIPLIER--> Cost)
+                  <!--/IFMULTIPLIER--><!--IFNOTES--></span>
+                  <div class="c7">
+                    <span class="c6"><b>Notes:</b> <!--EQUIPMENT_NOTES--></span>
+                  </div><!--/IFNOTES--><!--IFLIST-->
+                </div><!--/IFLIST-->
+              </td>
+              <td align="center" valign="top">
+                <!--EQUIPMENT_END-->
+              </td>
+            </tr><!--/EQUIPMENT-->
+            <!--/IFEQUIPMENT-->
+          </table>
+          <table border="0" cellpadding="2" cellspacing="0" width="100%">
+            <!--IFMARTIAL_ARTS-->
+            <tr>
+              <td align="left" class="header c5" colspan="3">
+                MARTIAL ARTS MANEUVERS
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="top">
+                <b>Cost </b>
+              </td>
+              <td align="left" width="100%" colspan="2" valign="top">
+                <b>Maneuver</b>
+              </td>
+            </tr><!--MARTIAL_ARTS-->
+            <tr>
+              <td align="center" valign="top">
+                <!--MA_COST-->
+              </td>
+              <td align="left" colspan="2" valign="top" width="100%">
+                <!--IFLIST-->
+                <div class="c8">
+                  <!--LISTPREFIX--><span class="c6"><!--/IFLIST--><!--IFNAME--><i><!--NAME-->:</i> 
+                  <!--/IFNAME--><!--MA_TEXT--><!--IFMULTIPLIER--> (x<!--MULTIPLIER--> Cost)
+                  <!--/IFMULTIPLIER--><!--IFNOTES--></span>
+                  <div class="c7">
+                    <span class="c6"><b>Notes:</b> <!--MA_NOTES--></span>
+                  </div><!--/IFNOTES--><!--IFLIST-->
+                </div><!--/IFLIST-->
+              </td>
+            </tr><!--/MARTIAL_ARTS-->
+            <tr>
+              <td align="center" valign="top">
+                <b><!--MARTIAL_ART_POINTS--></b>
+              </td>
+              <td align="left" colspan="2" valign="top">
+                <b>Total Martial Arts Cost</b>
+              </td>
+            </tr><!--/IFMARTIAL_ARTS-->
+          </table>
+        </td>
+      </tr>
+    </table><br class="c4">
+    <table border="0" cellpadding="0" cellspacing="3" width="100%" valign="top" class="c3">
+      <tr>
+        <td colspan="3" valign="top">
+          <table border="0" cellpadding="0" cellspacing="3" width="100%" valign="top">
+            <tr>
+              <td>
+                <b>Character Name:</b> <!--CHARACTER_NAME--><br>
+                Alternate Identities: <!--ALTERNATE_IDS--><br>
+                Player Name: <!--PLAYER_NAME--><br>
+              </td>
+              <td align="right" width="34%" colspan="2">
+                <img width="107" height="55" src="/images/HeroSystem_6ELogos.jpg" alt="Image">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr><!--IFDISADS-->
+      <tr>
+        <td align="left" class="header c5" colspan="3">
+          COMPLICATIONS
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top">
+          <b>Cost </b>
+        </td>
+        <td align="left" width="100%" colspan="2" valign="top">
+          <b>Complication</b>
+        </td>
+      </tr><!--DISADS-->
+      <tr>
+        <td align="center" valign="top">
+          <!--DISAD_COST-->
+        </td>
+        <td align="left" colspan="2" valign="top">
+          <!--IFLIST-->
+          <div class="c8">
+            <!--LISTPREFIX--><span class="c6"><!--/IFLIST--><!--DISAD_TEXT--><!--IFMULTIPLIER--> (x
+            <!--MULTIPLIER--> Cost)<!--/IFMULTIPLIER--><!--IFNOTES--></span>
+            <div class="c7">
+              <span class="c6"><b>Notes:</b> <!--DISAD_NOTES--></span>
+            </div><!--/IFNOTES--><!--IFLIST-->
+          </div><!--/IFLIST-->
+        </td>
+      </tr><!--/DISADS-->
+      <tr>
+        <td align="center">
+          <b><!--DISAD_POINTS--></b>
+        </td>
+        <td align="left" colspan="2">
+          <b>Total Disadvantages Cost</b>
+        </td>
+      </tr><!--/IFDISADS-->
+      <tr>
+        <td align="left" class="header c5" colspan="3">
+          APPEARANCE
+        </td>
+      </tr>
+      <tr>
+        <td align="right" nowrap>
+          <b>Hair Color:</b>
+        </td>
+        <td colspan="2" width="90%">
+          <!--HAIR_COLOR-->
+        </td>
+      </tr>
+      <tr>
+        <td align="right" nowrap>
+          <b>Eye Color:</b>
+        </td>
+        <td colspan="2" width="90%">
+          <!--EYE_COLOR-->
+        </td>
+      </tr>
+      <tr>
+        <td align="right" nowrap>
+          <b>Height:</b>
+        </td>
+        <td colspan="2" width="90%">
+          <!--HEIGHT_METRIC--> : <!--HEIGHT_ENGLISH-->
+        </td>
+      </tr>
+      <tr>
+        <td align="right" nowrap>
+          <b>Weight:</b>
+        </td>
+        <td colspan="2" width="90%">
+          <!--WEIGHT_METRIC--> : <!--WEIGHT_ENGLISH-->
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="c10">
+          <div class="c9">
+            <!--APPEARANCE-->
+            <br>
+            <!--/APPEARANCE-->
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td align="left" class="header c5" colspan="3">
+          BACKGROUND
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="c10">
+          <!--BACKGROUND-->
+          <br>
+          <!--/BACKGROUND-->
+        </td>
+      </tr>
+      <tr>
+        <td align="left" class="header c5" colspan="3">
+          PERSONALITY
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="c10">
+          <!--PERSONALITY-->
+          <br>
+          <!--/PERSONALITY-->
+        </td>
+      </tr>
+      <tr>
+        <td align="left" class="header c5" colspan="3">
+          QUOTE
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="c10">
+          <!--QUOTE-->
+          <br>
+          <!--/QUOTE-->
+        </td>
+      </tr>
+      <tr>
+        <td align="left" class="header c5" colspan="3">
+          POWERS/TACTICS
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="c10">
+          <!--TACTICS-->
+          <br>
+          <!--/TACTICS-->
+        </td>
+      </tr>
+      <tr>
+        <td align="left" class="header c5" colspan="3">
+          CAMPAIGN_USE
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="c10">
+          <!--CAMPAIGN_USE-->
+          <br>
+          <!--/CAMPAIGN_USE-->
+        </td>
+      </tr>
+    </table><span class="c11">Character created with <a href="http://www.herogames.com" target=
+    "new">Hero Designer</a> (version <!--APP_VERSION-->)   <b>Character exported on <!--TIMESTAMP--></b> </span>
+  </body>
+</html>

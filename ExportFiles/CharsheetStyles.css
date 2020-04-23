@@ -10,12 +10,39 @@ BODY {
     background-color: pink;
 	max-width: 8.5in;
 }
-img{	}
 .page{
-	margin: 0.5in;
-	max-height: 10in;
-	width: 7.5in;
+	padding: 0.5in;
+	max-height: 11in;
+	width: 8.5in;
 	background: lightblue;
+}
+.table-div{
+	position: relative;
+	border-radius: 10px;
+	border: 3px solid #000;
+	text-align: center;
+	overflow: hidden;
+}
+h3{
+	text-align: center;
+}
+.table-div td{
+	font-size: 7pt;
+}
+table{
+	width: 100%;
+	border-spacing: 8px 2px;
+}
+td{
+	height: 16px;
+	vertical-align: bottom;
+}
+.blank{
+	border-bottom: 1px solid #000;
+	position: relative;
+}
+hr{
+	border: 2px solid #000;
 }
 /*			*****************		Page 1		******************			*/
 #page1{
@@ -23,10 +50,24 @@ img{	}
 }
 #title-block{	float: left;	width: 65%;	}
 #logo-div{	width: 33%;	}
+ul{
+	list-style: none;
+}
+#cha-name:after,
+#char-name:after{
+	content: "Character Name";
+}
+#aliases:after{
+	content: "Alternate Identities";
+}
+#p-name:after{
+	content: "Player Name";
+}
 #p1-tables{
 	display: flex;
 	flex-flow: column wrap;
-	#flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
 	height: 8.75in; #87.5%;
 }
 
@@ -83,39 +124,17 @@ img{	}
 
 
 /*	********************************** 			Page 2			******************	*/
-hr{
-	border: 2px solid #000;
-}
+
 #page2{
-	margin-top: 200px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto auto auto;
 	grid-gap: 3.3mm 3.8mm;
 	grid-auto-columns: 33%;
 	height: 10in;
+	background: #fff;
 }
-.table-div{
-	position: relative;
-	border-radius: 10px;
-	border: 3px solid #000;
-	text-align: center;
-	overflow: hidden;
-}
-.table-div td{
-	font-size: 7pt;
-}
-table{
-	width: 100%;
-	border-spacing: 8px 2px;
-}
-td{
-	height: 16px;
-	vertical-align: bottom;
-}
-.blank{
-	border-bottom: 1px solid #000;
-}
+
 .img-holder{
 	grid-row: 1/2;
 	grid-column: 2/3;
@@ -143,19 +162,13 @@ td{
 span{
 	#display: inline-block;
 }
-#page2 #character-info > span{
-	position: relative;
-	bottom: -2px;
-}
-#div21{
+
+#character-info{
 	grid-row: 1/2;
 	grid-column: 1/2;
 	background: red;
 }
-#character-info{
-	#border-collapse: collapse;
-	border-spacing: 10px 2px;
-}
+
 td p{
 	text-align: right;
 	display: inline-block;
@@ -165,17 +178,44 @@ td p{
 	grid-row: 1/2;
 	grid-column: 3/4;
 	background: skyblue;
+	text-align: left;
 }
 #campaign-info{
-	border-spacing: 10px 2px;
+	#border-spacing: 10px 2px;
+}
+
+.line-title{	}
+.line-title:after{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	padding: 3px;
+	background: inherit;
+}
+#cam-name{
+	padding-left: 80px;
+}
+#cam-name:after{
+	content: "Campaign Name";
+}
+#genre{
+	padding-left: 40px;
+}
+#genre:after{
+	content: "Genre";
+}
+#GM{
+	padding-left: 65px;
+}
+#GM:after{
+	content: "Gamemaster";
 }
 #skills-perks-talents{
 	grid-row: 2/4;
 	background: teal;
 }
-h3{
-	text-align: center;
-}
+
 #powers-equipment{
 	grid-column: 2/4;
 	background: #953;

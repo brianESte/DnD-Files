@@ -8,9 +8,15 @@
 		<div class="page" id="page1">
 			<header>
 				<div id="title-block">
-					<p>Character Name _________________________________________________________</p>
-					<p>Alternate Identities ___________________________________________________</p>
-					<p>Player Name ____________________________________________________________</p>
+					<ul>
+						<li class="blank line-title" id="cha-name"></li>
+					</ul>
+					<table>
+						<!--tr><td class="blank line-title" id="char-name"></td></tr-->
+						<tr><td class="blank line-title" id="aliases"></td></tr>
+						<tr><td class="blank line-title" id="p-name"></td></tr>
+					</table>
+
 				</div>
 				<img src="HeroSystem_6ELogos.jpg" alt="HeroSys 6E Logo" id="logo">
 			</header>
@@ -320,13 +326,19 @@
 		</div>
 		<br>
 		<div class="page" id="page2">
-			<div class="table-div" id="div21">
+			<div class="table-div" id="character-info">
 				<h3>CHARACTER INFORMATION</h3>
 				<hr>
-				<table id="character-info">
-					<tr><td colspan="2"><span>Character Name</span><!--/td><td --><span class="blank">[insertname]</span></td>	</tr>
-					<tr><td><span>Height</span><span class="blank">180</span></td><td><span>Weight [kg]</span><!--/td><td--><span class="blank">80</span></td></tr>
-					<tr><td><span>Hair Color</span><!--/td><td--><span class="blank">brown</span></td><td><span>Eye Color</span><!--/td><td--><span class="blank">brown</span></td></tr>
+				<table>
+					<colgroup>
+						<col>
+						<col style="width: 11mm">
+						<col>
+						<col style="width: 11mm">
+					</colgroup>
+					<tr><td colspan="2">Character Name</td><td class="blank" colspan="2">[insertname]</td></tr>
+					<tr><td>Height [m]</td><td class="blank">1.81</td><td>Weight [kg]</td><td class="blank">80</td></tr>
+					<tr><td>Hair Color</td><td class="blank">brown</td><td>Eye Color</td><td class="blank">brown</td></tr>
 				</table>
 			</div>
 			<div class="img-holder">
@@ -336,9 +348,9 @@
 				<h3>CAMPAIGN INFORMATION</h3>
 				<hr>
 				<table id="campaign-info">
-					<tr><td><span>Campaign Name</span></td></tr>
-					<tr><td><span>Genre</span></td></tr>
-					<tr><td><span>Gamemaster</span></td></tr>
+					<tr><td class="blank line-title" id="cam-name"><!--CAMPAIGN_NAME-->Campaign</td></tr>
+					<tr><td class="blank line-title" id="genre"><!--GENRE-->Fantasy</td></tr>
+					<tr><td class="blank line-title" id="GM"><!--GM-->GM</td></tr>
 				</table>
 			</div>
 			<div class="table-div" id="skills-perks-talents">
@@ -353,16 +365,16 @@
 					<thead><tr><th>Cost</th><th>Name</th><th>Roll</th></tr></thead>
 					<tbody>
 						<!--IFSKILLS--><!--SKILLS-->
-						<tr><td style="text-align:center;"><!--COST--></td><td><!--IFNAME--><i><!--NAME-->:</i><!--/IFNAME--><!--SKILL_TEXT_NO_ROLL--></td><td style="text-align:center;"><!--SKILL_ROLL--></td></tr>
+						<tr><td><!--COST--></td><td><!--IFNAME--><i><!--NAME--></i>:<!--/IFNAME--><!--SKILL_TEXT_NO_ROLL--></td><td><!--SKILL_ROLL--></td></tr>
 						<!--/SKILLS-->
 						<tr><td></td><td></td><td></td></tr><!--/IFSKILLS-->
 						
 						<!--IFMARTIAL_ARTS--><!--MARTIAL_ARTS-->
 						<!--IF_NON_MANEUVER-->
-						<tr><td style="text-align:center;"><!--COST--></td><td colspan="2"><!--IFNAME--><i><!--NAME-->:</i><!--/IFNAME--><!--MA_TEXT--></td></tr>
+						<tr><td><!--COST--></td><td colspan="2"><!--IFNAME--><i><!--NAME-->:</i><!--/IFNAME--><!--MA_TEXT--></td></tr>
 						<!--/IF_NON_MANEUVER-->
 						<!--IF_MANEUVER-->
-						<tr><td style="text-align:center;"><!--COST--></td><td colspan="2"><!--IFNAME--><i><!--NAME-->:</i><!--/IFNAME--><!--ALIAS-->:</td></tr>
+						<tr><td><!--COST--></td><td colspan="2"><!--IFNAME--><i><!--NAME-->:</i><!--/IFNAME--><!--ALIAS-->:</td></tr>
 						<tr><td></td><td colspan="2"><!--MANEUVER_EFFECT--></td></tr>
 						<tr><td></td><td colspan="2"><!--MANEUVER_PHASE--> Phase, <!--MANEUVER_OCV--> OCV, <!--MANEUVER_DCV--> DCV</td></tr><!--/IF_MANEUVER-->
 						<!--/MARTIAL_ARTS-->
