@@ -37,6 +37,15 @@ td{
 	height: 16px;
 	vertical-align: bottom;
 }
+.line-title{	}
+.line-title:after{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-bottom: 3px;
+	background: inherit;
+}
 .blank{
 	border-bottom: 1px solid #000;
 	position: relative;
@@ -48,21 +57,37 @@ hr{
 #page1{
 	height: 100%;
 }
-#title-block{	float: left;	width: 65%;	}
+header{
+	margin-bottom: 20px;
+}
+#title-block{	float: left;	width: 63%;	}
 #logo-div{	width: 33%;	}
+#logo{
+	float: right;
+}
+header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
 ul{
+	font-size: 12pt;
 	list-style: none;
+	vertical-align: text-bottom;
 }
-#cha-name:after,
-#char-name:after{
-	content: "Character Name";
+ul li{
+	line-height: 32px;
+	height: 0.25in;
+	padding-left: 150px;
 }
-#aliases:after{
-	content: "Alternate Identities";
+li span{
+	vertical-align: text-bottom;
+	background: none;
 }
-#p-name:after{
-	content: "Player Name";
-}
+#char-name:after{	content: "Character Name";	font-weight: bold;	}
+#aliases:after{		content: "Alternate Identities";	}
+#player-name:after{	content: "Player Name";	}
+
 #p1-tables{
 	display: flex;
 	flex-flow: column wrap;
@@ -77,9 +102,11 @@ ul{
 
 #characteristics{
 	#height: 100mm;
+	width: 34.7%;
 }
 #attacks-mans{
 	height: 113.6mm;
+	width: 34.7%;
 }
 #attacks-table{
 	border-spacing: 1.3mm 2px;
@@ -90,6 +117,12 @@ ul{
 #attacks-table td:first-child,
 #attacks-table td:last-child{
 	text-align: left;
+}
+.p1c2{
+	width: 30.2%;
+}
+.p1c3{
+	width: 31.4%;
 }
 #status{
 	float: left;
@@ -184,15 +217,6 @@ td p{
 	#border-spacing: 10px 2px;
 }
 
-.line-title{	}
-.line-title:after{
-	display: block;
-	position: absolute;
-	left: 0;
-	bottom: -3px;
-	padding: 3px;
-	background: inherit;
-}
 #cam-name{
 	padding-left: 80px;
 }
