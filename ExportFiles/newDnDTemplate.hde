@@ -10,8 +10,8 @@
 			<header>
 				<div id="title-block">
 					<ul>
-						<li class="blank line-title" id="char-name"><span>Beans Brown</span></li>
-						<li class="blank line-title" id="aliases"><span>Farmer Brown</span></li>
+						<li class="blank line-title" id="char-name">Beans Brown</li>
+						<li class="blank line-title" id="aliases">Farmer Brown</li>
 						<li class="blank line-title" id="player-name">bS</li>
 					</ul>
 				</div>
@@ -150,20 +150,37 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="table-div  p1c2">
+					<div class="table-div  p1c2" id="vitals">
 						<h3>VITAL INFORMATION</h3>
 						<hr>
+						<table id="HTH">
+							<colgroup><col><col style="width: 18mm"></colgroup>
+							<tbody><tr><td><b>HTH Damage</b> (STR/5)d6</td><td class="blank">2.5d6</td></tr></tbody>
+						</table>
 						<table>
-							<thead>
-								<tr>
-									<th colspan="3">CURRENT FILLER</th>
-								</tr>
-							</thead>
 							<tbody>
-								<tr>
-									<td></td><td>Maximum</td><td>Current</td>
-								</tr>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<tr><td>Lift</td><td class="blank">151.6 kg</td><td>STR END Cost</td><td class="blank">1</td></tr>
+								<tr><td colspan="4"><b>Phases</b> phases...</td></tr>
+								<tr><td><b>Base OCV</b></td><td class="blank">5</td><td><b>Base DCV</b></td><td class="blank">5</td></tr>
+								<tr><td><b>Base OMCV</b></td><td class="blank">3</td><td><b>Base DMCV</b></td><td class="blank">3</td></tr>
 							</tbody>
+						</table>
+						<ul id="combat-skills">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+						<table id"="pre-attack">
+							<colgroup><col><col style="width: 13.7mm"></colgroup>
+							<tbody><tr><td><b>Presence Attack</b> (PRE/5)d6</td><td class="blank">2d6</td></tr></tbody>
 						</table>
 					</div>
 					<div class="table-div p1c2">
@@ -254,14 +271,16 @@
 						<table>
 							<colgroup>
 								<col>
-								<col style="width: 17.3mm">
+								<col style="width: 7.8mm">
+								<col>
+								<col style="width: 10.4mm">
 							</colgroup>
 							<tbody>
 								<tr><td></td><td></td><td>Average Def</td><td class="blank"></td></tr>
 								<tr><td>DCV Modifier</td><td class="blank"></td><td>Total Weight</td><td class="blank"></td></tr>
-								<p>Armor Notes</p>
 							</tbody>
 						</table>
+						<p>Armor Notes</p>
 					</div>
 					<div class="table-div p1c3" id="combat-mods">
 						<h3>COMBAT MODIFIERS</h3>
@@ -344,11 +363,11 @@
 			<div class="table-div" id="div23">
 				<h3>CAMPAIGN INFORMATION</h3>
 				<hr>
-				<table id="campaign-info">
-					<tr><td class="blank line-title" id="cam-name"><!--CAMPAIGN_NAME-->Campaign</td></tr>
-					<tr><td class="blank line-title" id="genre"><!--GENRE-->Fantasy</td></tr>
-					<tr><td class="blank line-title" id="GM"><!--GM-->GM</td></tr>
-				</table>
+				<ul>
+					<li class="blank line-title" id="cam-name"><!--CAMPAIGN_NAME-->Campaign</li>
+					<li class="blank line-title" id="genre"><!--GENRE-->Fantasy</li>
+					<li class="blank line-title" id="GM"><!--GM-->GM</li>
+				</ul>
 			</div>
 			<div class="table-div" id="skills-perks-talents">
 				<h3>SKILLS, PERKS, &amp; TALENTS</h3>
