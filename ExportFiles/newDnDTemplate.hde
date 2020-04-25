@@ -234,16 +234,16 @@
 					<div class="table-div p1c3">
 						<h3>EXPERIENCE POINTS</h3>
 						<hr>
-						<table>
+						<table id="expts">
 							<colgroup>
 								<col>
 								<col style="width: 17.3mm">
 							</colgroup>
 							<tbody>
-								<tr><td><b>Total Points</b></td><td class="blank"><!--TOTAL_POINTS--></td></tr>
-								<tr><td><b>Total Experience Earned</b></td><td class="blank"><!--EARNED_EXP--></td></tr>
-								<tr><td>Experience Spent</td><td class="blank"><!--SPENT_EXP--></td></tr>
-								<tr><td>Experience Unspent</td><td class="blank"><!--UNSPENT_EXP--></td></tr>
+								<tr><td><b>Total Points</b></td><td class="blank"><!--TOTAL_POINTS-->80 pts</td></tr>
+								<tr><td><b>Total Experience Earned</b></td><td class="blank"><!--EARNED_EXP-->0 xp</td></tr>
+								<tr><td>Experience Spent</td><td class="blank"><!--SPENT_EXP-->0 xp</td></tr>
+								<tr><td>Experience Unspent</td><td class="blank"><!--UNSPENT_EXP-->0 xp</td></tr>
 							</tbody>
 						</table>
 					</div>

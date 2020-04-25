@@ -151,10 +151,15 @@ ul li{
 #sense-table td:first-child{
 	text-align: left;
 }
-	
-#experience{
-	height: 13%;
+#expts{
+	padding: 0 10px;
+	border-spacing: 2px 2px;
+	#height: 13%;
 }
+#expts .blank{	padding-right: 6px;	}
+#expts td:first-child{	text-align: left;	}
+#expts td:last-child{	text-align: right;	}
+
 #hit-location{
 	height: 39%;
 }
