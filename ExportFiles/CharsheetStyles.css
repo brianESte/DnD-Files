@@ -11,7 +11,6 @@ BODY {
 	font-stretch: extra-condensed;
     font-size: 9pt;
     color: black;
-    background: lightgreen;
 	max-width: 8.5in;
 }
 .page{
@@ -20,6 +19,7 @@ BODY {
 	width: 8.5in;
 	background: #fff;
 	position: relative;
+	border: 1px dashed #aaa;
 }
 .box{
 	position: relative;
@@ -308,7 +308,6 @@ ul li{
 #character-info{
 	grid-row: 1/2;
 	grid-column: 1/2;
-	background: red;
 }
 #character-info td{	width: 50%;	}
 #character-info table{	padding: 0 8px;	}
@@ -340,7 +339,6 @@ ul li{
 #div23{
 	grid-row: 1/2;
 	grid-column: 3/4;
-	background: skyblue;
 	text-align: left;
 }
 #div23 ul{	margin: 0 10px;	}
@@ -358,10 +356,7 @@ ul li{
 #GM{		padding-left: 64px;	}
 #GM:after{		content: "Gamemaster";	}
 
-#skills-perks-talents{
-	grid-row: 2/4;
-	background: teal;
-}
+#skills-perks-talents{	grid-row: 2/4;	}
 #s-p-t-table td:first-child,
 #s-p-t-table td:nth-child(3){
 	text-align: center;
@@ -371,20 +366,14 @@ ul li{
 #s-p-t-table td{
 	border-bottom: 1px solid #000;
 }
-#powers-equipment{
-	grid-column: 2/4;
-	background: #953;
-}
+#powers-equipment{	grid-column: 2/4;	}
 #powers-equipment table{
 	border-spacing: 1.9mm 2px;
 }
 #powers-equipment td{
 	border-bottom: 1px solid #000;
 }
-#complications{
-	grid-column: 2/4;
-	background: #195;
-}
+#complications{	grid-column: 2/4;	}
 #complications table{
 	border-spacing: 2.5mm 2px;
 }
