@@ -98,7 +98,7 @@ def updatePosID(parName,wriName=False,xpath='./EQUIPMENT',position=0):
       oldPID = e.get('ID')
       newPID = "{:02d}".format(LL)+"{:02d}".format(II)
       e.set('ID',newPID)
-  tree.write(wriName,encoding='unicode')
+  tree.write(wriName,encoding='UTF-16LE')
 
 def addFromSSV(parName,dataf='rawImport.txt',grouping='misc',xpath='./EQUIPMENT'):
   keys = ['NAME','PRICE','LEVELS','PDLEVELS','EDLEVELS','WEIGHT']
@@ -138,5 +138,5 @@ def addFromSSV(parName,dataf='rawImport.txt',grouping='misc',xpath='./EQUIPMENT'
         if len(values) > 6:
           notes = ET.SubElement(elem,'NOTES')
           notes.text = values[6]
-    tree.write(parName[:-4]+'Out'+parName[-4:],encoding='unicode')
+    tree.write(parName[:-4]+'Out'+parName[-4:],encoding='UTF-16LE')
 
